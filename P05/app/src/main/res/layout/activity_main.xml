@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewModule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c346_android_programming"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c218_ui_ux_design_for_apps"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModule3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c235_it_security_and_management"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModule4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/g953_life_skills_iii"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModule5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c208_object_oriented_programming"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textViewModule6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c227_computer_system_technologies"
+        android:textSize="18sp" />
+
+</LinearLayout>

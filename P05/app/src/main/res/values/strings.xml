@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="back">back</string>
+    <string name="c346_android_programming">C346 Android Programming</string>
+    <string name="c218_ui_ux_design_for_apps">C218 UI/UX Design for Apps</string>
+    <string name="c235_it_security_and_management">C235 IT Security and Management</string>
+    <string name="g953_life_skills_iii">G953 Life Skills III</string>
+    <string name="c208_object_oriented_programming">C208 Object-Oriented Programming</string>
+    <string name="c227_computer_system_technologies">C227 Computer System Technologies</string>
+</resources>
