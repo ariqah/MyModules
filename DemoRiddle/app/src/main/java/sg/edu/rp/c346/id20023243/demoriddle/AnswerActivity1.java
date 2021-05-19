@@ -18,6 +18,7 @@ public class AnswerActivity1 extends AppCompatActivity {
         tvAnswer = findViewById(R.id.textView);
         Intent intentReceived = getIntent();
         String questionSelected = intentReceived.getStringExtra("Question");
+        tvAnswer.setText(questionSelected+ " answer is: Queue");
         // ^ getStringExtra(name of intent received) is to get value of the intent received from MainActivity
 
         //shortcut using only one answer activity
