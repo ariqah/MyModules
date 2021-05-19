@@ -42,5 +42,5 @@
         android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="back" />
+        android:text="@string/back" />
 </LinearLayout>
