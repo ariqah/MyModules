@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="location1">Marina Bay Sands</string>
+    <string name="location2">Gardens By The Bay</string>
+    <string name="location3">Universal Studios Singapore</string>
+    <string name="location4">Singapore Zoo</string>
+    <string name="location5">Clarke Quay</string>
+    <string name="location6">Resorts World Sentosa</string>
+    <string name="location7">Pulau Ubin</string>
+    <string name="location8">Arab Street</string>
+    <string name="location9">Singapore Flyer</string>
+    <string name="location10">ION Orchard</string>
+    <string name="top10Statement">Top 10 Must-Visit Places In Singapore:</string>
+    <string name="back_to_list">back to list</string>
+</resources>

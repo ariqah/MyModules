@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTop10Statement"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#5E5E5E"
+        android:gravity="start|center"
+        android:text="@string/top10Statement"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textViewMarinaBaySands"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#D8F3F3"
+        android:gravity="center"
+        android:text="@string/location1" />
+
+    <TextView
+        android:id="@+id/textViewFlyer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#DCD8D8"
+        android:gravity="center"
+        android:text="@string/location9" />
+
+    <TextView
+        android:id="@+id/textViewGardensByBay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#A5D6A7"
+        android:gravity="center"
+        android:text="@string/location2" />
+
+    <TextView
+        android:id="@+id/textViewUniversalStudios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E3DD5C"
+        android:gravity="center"
+        android:text="@string/location3" />
+
+    <TextView
+        android:id="@+id/textViewZoo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#A58080"
+        android:gravity="center"
+        android:text="@string/location4" />
+
+    <TextView
+        android:id="@+id/textViewClarkeQuay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#DC8A8A"
+        android:gravity="center"
+        android:text="@string/location5" />
+
+    <TextView
+        android:id="@+id/textViewSentosa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#60AEF3"
+        android:gravity="center"
+        android:text="@string/location6" />
+
+    <TextView
+        android:id="@+id/textViewPulauUbin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#C443A047"
+        android:gravity="center"
+        android:text="@string/location7" />
+
+    <TextView
+        android:id="@+id/textViewIonOrchard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#A4A715CD"
+        android:gravity="center"
+        android:text="@string/location10" />
+
+    <TextView
+        android:id="@+id/textViewArabStreet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#D5DCBE3D"
+        android:gravity="center"
+        android:text="@string/location8" />
+
+</LinearLayout>

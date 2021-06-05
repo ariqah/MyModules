@@ -4,37 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     android:orientation="vertical"
-    tools:context=".ModuleDetailActivity">
+    android:layout_margin="10dp"
+    tools:context=".LocationDetailActivity">
 
     <TextView
-        android:id="@+id/textViewModuleCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:id="@+id/textViewModuleName"
+        android:id="@+id/textViewDesription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textViewAcademicYear"
+        android:id="@+id/textViewAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textViewSemester"
+        android:id="@+id/textViewOpened"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textViewModularCredit"
+        android:id="@+id/textViewOpeningHours"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/textViewVenue"
+        android:id="@+id/textViewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewUrl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -42,5 +42,5 @@
         android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/back" />
+        android:text="@string/back_to_list" />
 </LinearLayout>

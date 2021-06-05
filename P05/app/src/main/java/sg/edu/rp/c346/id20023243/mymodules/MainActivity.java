@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tvModule1 = findViewById(R.id.textViewModule1);
         tvModule1.setOnClickListener((view) -> {
 
-            Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class);
+            Intent intent = new Intent(MainActivity.this, ModuleDetailActivity.class); //to pass the following message to ModuleDetailActivity
             intent.putExtra("ModuleCode","C346");
             intent.putExtra("ModuleName","Android Programming");
             intent.putExtra("AcademicYear",2021);
